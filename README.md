@@ -35,7 +35,7 @@ O repositório está organizado da seguinte forma:
 ## 📦 Como Executar o Projeto
 
 ### Pré-requisitos
-* Servidor local (XAMPP, WampServer ou Laragon).
+* Servidor local (Laragon, XAMPP, WampServer).
 * PHP 8.x com as extensões `pdo_mysql` e `pdo_sqlite` devidamente habilitadas no arquivo `php.ini`.
 
 ### Passo a Passo
