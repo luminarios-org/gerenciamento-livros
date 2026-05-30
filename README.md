@@ -18,7 +18,7 @@ O repositório está organizado nas seguintes pastas:
 ## 🛠️ Tecnologias Utilizadas
 
 * **Back-end:** PHP (utilizando PDO para conexões seguras e Prepared Statements contra SQL Injection).
-* **Front-end:** JavaScript (Vanilla), HTML5 e CSS3 (com suporte a temas dinâmicos).
+* **Front-end:** HTML5, CSS3 (com suporte a temas dinâmicos) e JavaScript (Vanilla).
 * **Bancos de Dados:** MySQL e SQLite.
 * **Acessibilidade:** Integração com o componente **VLibras** para tradução de conteúdos em LIBRAS.
 
@@ -43,14 +43,14 @@ O repositório está organizado nas seguintes pastas:
 ## 📦 Como Executar o Projeto
 
 ### Pré-requisitos
-* Servidor local ativo (como Laragon, XAMPP ou WampServer).
-* PHP 8.x com as extensões `pdo_mysql` e `pdo_sqlite` habilitadas no arquivo `php.ini`.
+* Servidor local ativo (recomendado usar o **Laragon**, mas compatível com XAMPP ou WampServer).
+* PHP 8.x com as extensions `pdo_mysql` e `pdo_sqlite` habilitadas no arquivo `php.ini`.
 
 ### Passo a Passo para Testar
 
 1. **Clone o repositório na pasta raiz do seu servidor local (ex: `www` ou `htdocs`):**
    ```bash
-   git clone [https://github.com/luminarios-org/gerenciamento-livros.git](https://github.com/luminarios-org/gerenciamento-livros.git)
+   git clone https://github.com/luminarios-org/gerenciamento-livros.git
    ```
 
 2. **Para rodar a versão SQLite:**
