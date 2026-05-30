@@ -43,7 +43,7 @@ O repositório está organizado nas seguintes pastas:
 ## 📦 Como Executar o Projeto
 
 ### Pré-requisitos
-* Servidor local ativo (recomendado usar o **Laragon**, mas compatível com XAMPP ou WampServer).
+* Servidor local ativo (como Laragon, XAMPP ou WampServer).
 * PHP 8.x com as extensões `pdo_mysql` e `pdo_sqlite` habilitadas no arquivo `php.ini`.
 
 ### Passo a Passo para Testar
@@ -51,3 +51,32 @@ O repositório está organizado nas seguintes pastas:
 1. **Clone o repositório na pasta raiz do seu servidor local (ex: `www` ou `htdocs`):**
    ```bash
    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   ```
+
+2. **Para rodar a versão SQLite:**
+   * Acesse a pasta `/projeto-livros-sqlite`.
+   * O arquivo de banco `biblioteca.db` já está presente e configurado. Certifique-se apenas de que a pasta tenha permissões de escrita no seu sistema operacional para permitir novos cadastros.
+   * Abra no seu navegador: `http://localhost/nome-do-repositorio/projeto-livros-sqlite/index.php`.
+
+3. **Para rodar a versão MySQL:**
+   * Acesse a pasta `/projeto-livros-mysql`.
+   * Importe o script `/projeto-livros-mysql/schema.sql` em seu gerenciador de banco de dados para criar automaticamente a base `biblioteca_mysql_db` e a tabela `livros_mysql` populada com dados de exemplo.
+   * Verifique as credenciais no arquivo `config.php` (o padrão está configurado com usuário `root` e senha vazia).
+   * Abra no seu navegador: `http://localhost/nome-do-repositorio/projeto-livros-mysql/index.php`.
+   
+   > ⚠️ **Nota Importante:** Caso encontre qualquer erro ao tentar acessar as páginas de "Catálogo" ou "Adicionar Livro" na versão MySQL, abra e siga atentamente o passo a passo de solução de problemas descrito no arquivo **`README.txt`** localizado dentro da própria pasta `/projeto-livros-mysql`.
+
+---
+
+## 🏫 Instituição & Autores
+
+* **Curso:** Aprendizagem Industrial / Técnico em Desenvolvimento de Sistemas
+* **Instituição:** SENAI Diadema — Escola "Manuel Garcia Filho"
+* **Integrantes do Grupo:**
+  * Kauan Barboza
+  * Kauã Everton
+  * Luan
+  * Hyago
+  * Felipe
+  * Riquelme
+  * Nicolas
